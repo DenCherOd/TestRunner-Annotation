@@ -5,3 +5,5 @@ public class Main {
         TestRunner.start(TestClass.class);
     }
 }
+
+// Спасибо за разбор, что-то новенькое))
