@@ -42,7 +42,7 @@ public class TestRunner {
                 throw new RuntimeException("AfterSuite annotation must be a single");
             }
         } catch (InstantiationException | InvocationTargetException | NoSuchMethodException | IllegalAccessException e) {
-            e.printStackTrace();
+            throw new RuntimeException("Something went wrong with execution" , e);
         }
     }
 }
